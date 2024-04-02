@@ -23,6 +23,10 @@ img {
   text-decoration: none;
 }
 
+li:first-of-type{
+  list-style: none;
+}
+
 .head_links {
   display: flex;
   gap: 33px;
@@ -59,7 +63,7 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 757px;
+  min-height: 757px;
 }
 
 .overlay {
